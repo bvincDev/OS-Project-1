@@ -19,8 +19,8 @@ Programming assignment #1 for operating systems, the producer consumer problem.
 
 ## Compiling the Programs
 
-$ `g++ producer.c -pthread -lrt -o producer`<br />
-$ `g++ consumer.c -pthread -lrt -o consumer`<br />
+$ `g++ producer.cpp -pthread -lrt -o producer`<br />
+$ `g++ consumer.cpp -pthread -lrt -o consumer`<br />
 $ `./producer & ./consumer &`
 
 ## Example
